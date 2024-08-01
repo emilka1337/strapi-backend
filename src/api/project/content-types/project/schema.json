@@ -34,8 +34,18 @@
       "required": true
     },
     "Used_Technologies": {
-      "type": "json",
-      "required": true
+      "type": "customField",
+      "options": [
+        "HTML",
+        "CSS/SASS",
+        "JavaScript",
+        "Algorithms",
+        "Bootstrap",
+        "Animations",
+        "REST API",
+        "React"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
